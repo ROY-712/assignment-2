@@ -226,14 +226,17 @@
   color:  white;
   height: 250px;
 }
-.bloom {    
-  background-image: url('../image/deal-bloom.png'); 
+.bloom {   
+     height: 250px;
+  background-image: url('image/deal-bloom.png'); 
+
 }
 .ana {
-  background-image: url('../image/deal-ana.png');
+  background-image: url('image/deal-ana.png');
+  height: 250px;
 }
 .zabo {
-  background-image: url('../image/deal-zabo.png');
+  background-image: url('image/deal-zabo.png');
   height: calc(250px * 2 + 20px); /* Height of bloom + ana + gap */
 }
 .text-box h3{
@@ -269,7 +272,7 @@
 }  
 
 .subscribe-section {
-  background-image: url('../image/news-letter-bg.png');
+  background-image: url('image/news-letter-bg.png');
   background-size: cover;
   background-position: center;
   padding: 100px 20px;
