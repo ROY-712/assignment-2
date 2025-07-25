@@ -1,0 +1,418 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    box-sizing: border-box;
+}
+
+/* Noto-Serif FOn */
+
+.noto-serif {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 22px;
+}
+/* color */
+.dark{
+    color: rgb(97, 97, 97);
+ }
+.dark2{
+    color: rgb(94, 92, 92);
+    font-size: 20px;
+}
+
+/* Navbar */
+
+.nav{
+    display: flex;
+    align-items: center;
+    max-width: 1140px;
+    justify-content: space-between;
+    margin: 20px auto 90px;
+}
+.nav ul li{
+     list-style: none;
+}
+.nav-right ul{
+    display: flex;
+    gap:30px;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+}
+.cart-image{
+      height: 30px;
+      width: auto;
+}
+
+/* Banner */
+
+.banner{
+    max-width: 1140px;
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin: 50px auto 90px;
+}
+.banner, .banner-img{
+    background-color: #f1f7f9;
+}
+.description{  
+    max-width: 570px;
+    height: auto;
+    padding-left: 5px;
+}
+.d1{
+    font-size: 40px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
+.bann-des-col{
+    color: #E95A08;
+}
+.banner-img{
+    height: 355px;
+    width: 570px;
+}
+/* Our plants */
+
+.plant{
+    margin: 50px auto 130px;
+    height: auto;
+    max-width: 1140px;
+}
+.plant-des{
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.btn-col {
+  background-color: orangered;
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 10px 90px;
+  border: none;
+  margin: auto;
+}
+.btn-col:hover {
+    background-color: #dbe549;
+  }
+.image-text{
+    text-align: center;
+}
+.plant-image{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:10px;
+}
+.image-text{
+    width: 100%;
+}
+.image-text img{
+    width: 100%;
+}
+
+/* Plant */
+
+.challenge{
+    display: flex;
+    margin: 100px auto 110px;
+    max-width: 1140px;
+    height:auto;
+    gap: 120px;
+    justify-content: space-between;
+    align-items: center; 
+    /* border: 2px solid black; */
+}
+.ch-des h3{
+    font-size: 32px;
+    font-weight: 700;        
+}
+
+/* .ch-img img {
+ background: transparent;
+} */
+.ch-img{
+
+    position: relative;
+}
+.ch-img1{
+    z-index: -10;
+    width: 540px;
+    height: 600px;
+}
+
+.trusted_badge{
+    width: 250px;
+    background: transparent;
+    z-index: 10;
+    position: absolute;
+    right: -80px;
+    top: -100px;
+    background-blend-mode: lighten;
+}
+.ch-des ul li{
+    padding: 10px;
+}
+
+/* Deal */
+
+.deal {
+  max-width: 1140px;
+  margin: 100px auto;
+  padding-top:  0px 20px;
+  font-family: sans-serif;
+}
+
+.deal-des {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.deal-des h3 {
+  font-size: 2rem;
+}
+
+.deal-des p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Grid layout for deals */
+.deal-discount {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+/* Left side grid: 2 rows */
+.left-column {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+.bloom, .ana, .zabo {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  position: relative;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  padding: 20px;
+  color:  white;
+  height: 250px;
+}
+.bloom {    
+  background-image: url('../image/deal-bloom.png'); 
+}
+.ana {
+  background-image: url('../image/deal-ana.png');
+}
+.zabo {
+  background-image: url('../image/deal-zabo.png');
+  height: calc(250px * 2 + 20px); /* Height of bloom + ana + gap */
+}
+.text-box h3{
+  background: rgba(82, 77, 77, 0.4); 
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.text-box{
+  margin-bottom:10px;
+  font-size: 22px;
+  background: rgba(0, 0, 0, 0.29);
+}
+
+.text-box a {
+  display:flex;
+  padding: 6px 12px;
+  color: #76c6e3;
+  justify-content: center;
+  font-weight: 900;
+  border-radius: 5px;
+  background: rgba(82, 77, 77, 0.4);
+}
+.text-box a:hover {
+  background: #e3e3e0;
+} 
+
+.subscribe-to-join{   
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+    width: 830px;   
+}  
+
+.subscribe-section {
+  background-image: url('../image/news-letter-bg.png');
+  background-size: cover;
+  background-position: center;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+.subscribe-content {
+  max-width: 830px;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.4); /* optional dark overlay */
+  padding: 40px 20px;
+  border-radius: 10px;
+}
+
+.subscribe-content h2 {
+  font-size: 40px;
+  margin-bottom: 30px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.email-box {
+  display: flex;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.email-box input {
+  flex: 1;
+  padding: 16px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  color: #333;
+}
+
+.email-box button {
+  background-color: orangered;
+  color: white;
+  border: none;
+  padding: 0 30px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.email-box button:hover {
+  background-color: #dbe549;
+}
+
+/* footer */
+
+.ending-page{
+    min-height: 350px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    padding: 40px;
+}
+.Feature ul{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 20px;
+}
+.Feature ul li a{
+    text-decoration: none;
+    color:rgb(94, 92, 92) ;
+}
+.Feature ul li{
+    list-style-type: none;
+}
+.final p{
+    max-width: 370px;
+    padding-top: 8px;
+}
+.icons{
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+}
+.icons img{
+    width: 30px;
+    cursor: pointer;
+    transition: 0.5s all ease;
+}
+.icons img:hover{
+    transform: scale(1.5);
+    transition: 0.5s all ease;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 576px) {
+    .nav{
+        align-items: center;
+    }
+    .nav-right ul li {
+        display: none;
+    }
+    .banner{
+       flex-direction: column-reverse; 
+       gap: 20px;
+       padding: 0px;
+    }
+    .plant-image{
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       gap:10px;
+       padding: 10px;
+    
+    }
+     .trusted_badge{
+        display:none;
+    }
+    .challenge,
+    .ch-img1{
+        flex-direction:column;
+        gap: 20px;
+        padding: 20px;
+    }
+    .deal-discount{
+         grid-template-columns: 1fr;
+    }
+    .left-column{
+       grid-template-rows: auto;
+    }
+    .bloom,
+    .ana,
+    .zabo{
+        width: 100%;
+        height:250px;      
+    }
+    .email-box {
+       flex-direction: column;
+    }
+
+    .email-box input,
+    .email-box button {
+        width: 100%;
+        padding: 14px;
+    }
+    .ending-page{
+        flex-direction: column;
+        gap:10px;
+    }
+
+}
