@@ -116,7 +116,7 @@
   margin: auto;
 }
 .btn-col:hover {
-    background-color: #dbe549;
+    background-color: #80853e;
   }
 .image-text{
     text-align: center;
@@ -317,7 +317,7 @@
   cursor: pointer;
 }
 .email-box button:hover {
-  background-color: #dbe549;
+  background-color: #80853e;
 }
 
 /* footer */
@@ -344,7 +344,7 @@
     list-style-type: none;
 }
 .final p{
-    max-width: 370px;
+    max-width: 360px;
     padding-top: 8px;
 }
 .icons{
@@ -355,15 +355,15 @@
 .icons img{
     width: 30px;
     cursor: pointer;
-    transition: 0.5s all ease;
+    transition: 0.6s all ease;
 }
 .icons img:hover{
     transform: scale(1.5);
-    transition: 0.5s all ease;
+    transition: 0.3s all ease;
 }
 
 /* Responsive */
-
+/* for phone */
 @media screen and (max-width: 576px) {
     .nav{
         align-items: center;
