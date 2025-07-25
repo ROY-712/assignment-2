@@ -151,7 +151,6 @@
  background: transparent;
 } */
 .ch-img{
-
     position: relative;
 }
 .ch-img1{
@@ -364,21 +363,32 @@
 @media screen and (max-width: 576px) {
     .nav{
         align-items: center;
+        justify-content: space-between;
+        padding-left: 20px;
     }
     .nav-right ul li {
         display: none;
     }
     .banner{
-       flex-direction: column-reverse; 
+       flex-direction: column-reverse;
+       align-items: center; 
        gap: 20px;
-       padding: 0px;
+       padding: 30px;
+    }
+    .plant-des{
+        align-items: center;
+        padding-left: 50px;
     }
     .plant-image{
        display: grid;
        grid-template-columns: repeat(2,1fr);
        gap:10px;
-       padding: 10px;
+       align-items: center;
+       padding: 20px;
     
+    }
+    .ch-img1{
+        padding-left: 50px;
     }
      .trusted_badge{
         display:none;
@@ -387,8 +397,10 @@
     .ch-img1{
         flex-direction:column;
         gap: 20px;
-        padding: 20px;
+        padding-left: 30px;
+        padding-bottom: 20px; 
     }
+    
     .deal-discount{
          grid-template-columns: 1fr;
     }
@@ -399,7 +411,12 @@
     .ana,
     .zabo{
         width: 100%;
-        height:250px;      
+        height:250px; 
+        margin-left: 30px;     
+    }
+    .subscribe-section{
+        width: 400px;
+        margin-left: 20px;
     }
     .email-box {
        flex-direction: column;
